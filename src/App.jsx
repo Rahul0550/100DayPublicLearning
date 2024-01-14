@@ -8,7 +8,10 @@ function App() {
   return (
     <>
       <h1>This is Day 1 progress</h1>
-      <button onClick={()=>setCount(count+1)}>{count}</button>
+      <h1>Count: {count}</h1>
+      <button onClick={()=>setCount(count+1)}>Increment </button><br/> <br/>
+      <button onClick={()=>setCount(count-1)}>Decrement </button>
+
     </>
   )
 }
